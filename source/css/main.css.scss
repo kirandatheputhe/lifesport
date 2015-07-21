@@ -1,0 +1,66 @@
+@import "compass";
+@import "variables";
+@import "mixins";
+
+@import "bootstrap-compass";
+@import "bootstrap";
+
+@import "base";
+
+.body{
+  font-family: raleway-regular;
+}
+.main-nav{
+  background-color: #fff;
+  border-color: #ccc;
+  box-shadow: 0px 0px 5px #ccc;
+}
+.navbar-nav{
+  float: right;
+  min-height: 70px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.navbar-inverse .navbar-nav > li > a{
+  margin-top: 10px;
+  color: #3B9DFF;
+  font-size: 16px;
+  font-family: raleway-regular;
+}
+.navbar-header img{
+  margin-top: 20px;
+}
+.register a {
+  padding: 0px 20px;
+  color: #fff !important;
+  background-color: #3B9DFF;
+}
+#main-banner{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.81) ;
+  background-attachment: scroll;
+  background-image: url('../img/home-banner.png') ;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  z-index: 1;
+  height: 560px;
+  width: 100%;
+}
+.banner-login-btn{
+ margin: 0 auto;
+ text-align: center;
+ padding: 10% 0px;
+}
+.banner-login-btn h2{
+  padding: 30px 0px 35px;
+  font-size: 35px;
+  font-family: raleway-regular;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+.banner-login-btn img{
+}
