@@ -6,8 +6,106 @@ section#main-banner
   .banner-login-btn
     h2
       |Connect with your favorite sports star
-    = image_tag "fb-login.png"
+    =link_to image_tag("fb-login.png")
     .div
       h4
         |OR
-    = image_tag "email-login.png"
+    =link_to image_tag ("email-login.png")
+
+section#work.text-center
+  .container
+    h2.content-section-heading.text-center
+        |How it works
+    .row
+      .col-md-4.work-content
+        .work-1
+        p
+          |Sports athlete has an active profile on <span>Life.Sport</span>
+      .col-md-4.work-content
+        .work-2
+        p
+          | <span>Schedule appointment </span> with sports star as per guidelines
+      .col-md-4.work-content
+        .work-3
+        p
+          |Fan & sports athlete <span>connect over video </span> and dialogue
+section#happy-users
+  .container
+    h2.content-section-heading.text-center
+        |Our happy Users
+    .row.user-1
+      .col-md-2.start-int-comma
+        =image_tag "start-invrt-coma.png"
+      .col-md-7.user-cmt
+        p
+          |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat.
+      .col-md-3.user-pic.text-center
+        =image_tag "user-pic-1.png"
+        h4
+          |Mr. test name
+        p
+          |lorem ipsum doller
+        p
+          |NYC, USA
+
+    .row.user-2
+      .col-md-3.user-pic.text-center
+        =image_tag "user-pic.png"
+        h4
+          |Chrstiano Ronaldo
+        p
+          |Professional soccer player 
+        p
+          |Portugal      
+      .col-md-7.user-cmt
+        p
+          |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat.
+      .col-md-2.end-int-comma
+        =image_tag "end-invrt-coma.png"
+
+
+section#schedule-connect.text-center
+  h2.content-section-heading.text-center
+    |Schedule, connect and be inspired
+  .container
+    p.schedule-cnt-text
+      |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  .schedule-ban-img
+    .container.schedule-content
+      .row
+        .col-md-3
+          =image_tag "sche-ico-1.png"
+          h3
+            |Where ever you are
+          p
+            |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt
+        .col-md-3
+          =image_tag "sche-ico-2.png"
+          h3
+            |Schedule for appoinment
+          p
+            |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt
+        .col-md-3
+          =image_tag "sche-ico-3.png"
+          h3
+            |Find your favourites sports srar
+          p
+            |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt
+        .col-md-3
+          =image_tag "sche-ico-4.png"
+          h3
+            |Get inspired
+          p
+            |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt do eiusmod tempor incididunt          
+
+section#join-now-btn.text-center
+  .container
+    .row
+      =link_to "Join now free", "#"
+
+      
+
+
+
+      
+

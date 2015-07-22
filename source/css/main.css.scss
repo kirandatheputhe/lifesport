@@ -10,6 +10,12 @@
 .body{
   font-family: raleway-regular;
 }
+.content-section-heading{
+  font-size: 35px;
+  font-family: raleway-medium;
+  color: #313131;
+  padding: 30px 0px;
+}
 .main-nav{
   background-color: #fff;
   border-color: #ccc;
@@ -36,6 +42,10 @@
   color: #fff !important;
   background-color: #3B9DFF;
 }
+
+/* header, nav css end */
+
+
 #main-banner{
   color: #fff;
   background-color: rgba(0, 0, 0, 0.81) ;
@@ -62,5 +72,152 @@
   font-weight: bold;
   word-spacing: 5px;
 }
-.banner-login-btn img{
+
+/* banner css end */
+
+#work{
+  margin: 35px 0px;
+}
+#work h2{
+  margin-bottom: 53px;
+}
+.work-1,
+.work-2,
+.work-3
+{
+  width: 170px;
+  height: 200px;
+  z-index: 999;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.work-1{
+  background-image: url('../img/work-ico-1.png') ;
+}
+.work-1:hover{
+  background-image: url('../img/work-ico-1-ho.png') ;
+}
+.work-2{
+  background-image: url('../img/work-ico-2.png') ;
+}
+.work-2:hover{
+  background-image: url('../img/work-ico-2-ho.png') ;
+}
+.work-3{
+  background-image: url('../img/work-ico-3.png') ;
+}
+.work-3:hover{
+  background-image: url('../img/work-ico-3-ho.png') ;
+}
+.work-content p{
+  font-size: 15px;
+  font-family: raleway-regular;
+}
+.work-content p span{
+  font-weight: bold;
+  color: #399CFF;
+}
+
+/* work css end */
+#happy-users{
+  margin-bottom: 93px;
+}
+.user-1{
+  margin-bottom: 30px;
+}
+.user-pic img{
+  border-radius: 50%;
+}
+.start-int-comma,
+.end-int-comma
+{
+  text-align: center;
+}
+.user-cmt{
+  font-size: 17px;
+  line-height: 30px;
+  padding: 5px
+}
+
+/* happy user css end */
+
+.schedule-cnt-text{
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0px 20%;
+  margin-bottom: 53px;
+}
+#schedule-connect h2{
+  margin-bottom: 0px;
+}
+.schedule-ban-img{
+  background-color: rgba(0, 0, 0, 0.81) ;
+  background-attachment: scroll;
+  background-image: url('../img/schedule-bg.png') ;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 580px;
+  width: 100%;
+  z-index: 1;
+}
+.schedule-content{
+  padding: 100px 0px 0px;
+}
+.schedule-content h3{
+  color: #fff;
+  font-family: raleway-medium;
+  font-size: 18px;
+}
+.schedule-content p{
+  color: #fff;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+/* schedule css end */
+
+#join-now-btn{
+  margin: 93px 0px;
+}
+#join-now-btn a{
+  padding: 12px 30px;
+  color: #fff;
+  background-color: #399CFF;
+  font-size: 25px;
+  outline: 0 none;
+  text-decoration: none;
+}
+#join-now-btn a:hover{
+  text-decoration: none;
+  background-color: #097AEC;
+  outline: 0 none;
+}
+
+#footer{
+  background-color: #EFEFEF;
+  padding: 93px 0px;
+}
+#footer h3{
+  color: #ccc;
+  margin-top: 50px;
+}
+.social-media-grp{
+  margin-left: -50px;
+}
+
+.social-media-grp ul li{
+  display: inline-block;
+  clear: both;
+  list-style: none;
+
+
+}
+.social-media-grp ul li img{
+  float: left;
+  padding: 0px 20px;
 }

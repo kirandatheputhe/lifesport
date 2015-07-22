@@ -33,8 +33,18 @@ html lang="en"
 
 
     footer role="contentinfo"
-      .container.text-center
-        small &copy; Life.sport 2015-2016. All Right Reserved
+      section#footer.text-center
+        .container
+          .row
+            .social-media-grp
+              ul
+                li
+                  =link_to image_tag ("facebook.png")              
+                li
+                  =link_to image_tag ("twitter.png")
+                li
+                  =link_to image_tag ("google.png")
+            h3 &copy; 2015 All rights reserved.
 
     /! JavaScript
     = javascript_include_tag "main", type: false
