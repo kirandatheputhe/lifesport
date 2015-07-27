@@ -275,3 +275,547 @@ body,
 
 .item:nth-child(3) {
 }
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .banner-login-btn{
+    padding: 5% 0;
+  }
+  .banner-login-btn h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #main-banner{
+    height: 420px;
+  }
+  .nav-toogle-btm{
+    background-color: #3B9DFF;
+    border: none;
+  }
+  .navbar-header img{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #ccc;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #555;
+  }
+  .register a:hover {
+    background-color: #666 !important;
+  }
+  #work{
+    margin: 0px;
+  }
+  #work h2,
+  .content-section-heading
+  {
+    margin-bottom: 30px;
+    font-size: 33px;
+  }
+  .content-section-heading{
+    padding: 15px;
+  }
+  .work-1,
+  .work-2,
+  .work-3{
+    width: 120px;
+    height: 141px;
+    background-size: 120px;
+    margin-bottom: 22px;
+    }
+  .work-content p{
+    margin-bottom: 30px;
+  }
+  .start-int-comma img,
+  .end-int-comma img
+  {
+    width: 50px;
+    height: 50px;
+  }
+  .user-cmt{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .schedule-cnt-text{
+    padding: 0px 4%;
+    font-size: 15px;
+  }
+  .schedule-ban-img{
+    height: 100%;
+    width:100%;
+    background-size: 903px;
+  }
+  .schedule-content{
+    padding: 50px 0px 0px;
+  }
+  .sche-ico{
+    padding-bottom: 30px;
+  }
+  .sche-ico span{
+    display: block;
+    height: 60px;
+  }
+  .schedule-content h3{
+    height: 40px;
+  }
+  .schedule-content p{
+    padding: 0px 5px;
+  }
+  .sche-ico img{
+    width: 40px;
+  }
+  #join-now-btn{
+    margin: 63px 0px;
+  }
+  #join-now-btn a{
+    font-size: 20px;
+    padding: 15px 38px;
+  }
+  #happy-users{
+    margin-bottom: 53px;
+  }
+  .social-media-grp{
+    margin-left: -40px;
+  }
+  .social-media-grp ul li img{
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+  }
+  #footer{
+    padding: 45px 0px;
+  }
+  #footer h3{
+    font-size: 12px;
+    margin: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .banner-login-btn{
+    padding: 5% 0;
+  }
+  .banner-login-btn h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #main-banner{
+    height: 420px;
+  }
+  .nav-toogle-btm{
+    background-color: #3B9DFF;
+    border: none;
+  }
+  .navbar-header img{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #ccc;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #555;
+  }
+  .register a:hover {
+    background-color: #666 !important;
+  }
+  #work{
+    margin: 0px;
+  }
+  #work h2,
+  .content-section-heading
+  {
+    margin-bottom: 30px;
+    font-size: 33px;
+  }
+  .content-section-heading{
+    padding: 15px;
+  }
+  .work-1,
+  .work-2,
+  .work-3{
+    width: 120px;
+    height: 141px;
+    background-size: 120px;
+    margin-bottom: 22px;
+    }
+  .work-content p{
+    margin-bottom: 30px;
+  }
+  .start-int-comma img,
+  .end-int-comma img
+  {
+    width: 25px;
+    height: 25px;
+  }
+  .user-cmt{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .schedule-cnt-text{
+    padding: 0px 4%;
+    font-size: 15px;
+  }
+  .schedule-ban-img{
+    height: 100%;
+    width:100%;
+    background-size: 903px;
+  }
+  .schedule-content{
+    padding: 50px 0px 0px;
+  }
+  .sche-ico{
+    padding-bottom: 30px;
+  }
+  .sche-ico img{
+    width: 50px;
+  }
+  #join-now-btn{
+    margin: 63px 0px;
+  }
+  #join-now-btn a{
+    font-size: 20px;
+    padding: 15px 38px;
+  }
+  #happy-users{
+    margin-bottom: 53px;
+  }
+  .social-media-grp{
+    margin-left: -40px;
+  }
+  .social-media-grp ul li img{
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+  }
+  #footer{
+    padding: 45px 0px;
+  }
+  #footer h3{
+    font-size: 12px;
+    margin: 0px;
+  }
+ }
+
+@media (max-width: 767px){
+  .banner-login-btn h2{
+    font-size: 25px;
+    line-height: 28px;
+  }
+  #main-banner{
+    height: 420px;
+  }
+  .nav-toogle-btm{
+    background-color: #3B9DFF;
+    border: none;
+  }
+  .navbar-header img{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #ccc;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #555;
+  }
+  .nav-drop-bg{
+    background-color: #f9f9f9;
+  }
+  .register a:hover {
+    background-color: #666 !important;
+  }
+  #work{
+    margin: 0px;
+  }
+  #work h2,
+  .content-section-heading
+  {
+    margin-bottom: 16px;
+    font-size: 30px;
+  }
+  .content-section-heading{
+    padding: 15px;
+  }
+  .work-1,
+  .work-2,
+  .work-3{
+    width: 100px;
+    height: 118px;
+    background-size: 100px;
+    margin-bottom: 22px;
+    }
+  .work-content p{
+    margin-bottom: 30px;
+  }
+  .start-int-comma img,
+  .end-int-comma img
+  {
+    width: 25px;
+    height: 25px;
+  }
+  .user-cmt{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .schedule-cnt-text{
+    padding: 0px 4%;
+    font-size: 15px;
+  }
+  .schedule-ban-img{
+    height: 100%;
+    width:100%;
+    background-size: 643px;
+  }
+  .schedule-content{
+    padding: 50px 0px 0px;
+  }
+  .sche-ico{
+    padding-bottom: 30px;
+  }
+  .sche-ico img{
+    width: 40px;
+  }
+  #join-now-btn{
+    margin: 53px 0px;
+  }
+  #join-now-btn a{
+    font-size: 20px;
+    padding: 15px 38px;
+  }
+  #happy-users{
+    margin-bottom: 53px;
+  }
+  .social-media-grp{
+    margin-left: -40px;
+  }
+  .social-media-grp ul li img{
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+  }
+  #footer{
+    padding: 45px 0px;
+  }
+  #footer h3{
+    font-size: 12px;
+    margin: 0px;
+  }
+}
+@media (max-width: 480px){
+  .banner-login-btn h2{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #main-banner{
+    height: 420px;
+  }
+  .nav-toogle-btm{
+    background-color: #3B9DFF;
+    border: none;
+  }
+  .navbar-header img{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #ccc;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #555;
+  }
+  .nav-drop-bg{
+    background-color: #f9f9f9;
+  }
+  .register a:hover {
+    background-color: #666 !important;
+  }
+  #work{
+    margin: 0px;
+  }
+  #work h2,
+  .content-section-heading
+  {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  .content-section-heading{
+    padding: 15px;
+  }
+  .work-1,
+  .work-2,
+  .work-3{
+    width: 80px;
+    height: 94px;
+    background-size: 80px;
+    margin-bottom: 22px;
+    }
+  .work-content p{
+    margin-bottom: 30px;
+  }
+  .start-int-comma img,
+  .end-int-comma img
+  {
+    width: 25px;
+    height: 25px;
+  }
+  .user-cmt{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .schedule-cnt-text{
+    padding: 0px 4%;
+    font-size: 15px;
+  }
+  .schedule-ban-img{
+    height: 100%;
+    width:100%;
+    background-size: 293px;
+  }
+  .schedule-content{
+    padding: 50px 0px 0px;
+  }
+  .sche-ico{
+    padding-bottom: 30px;
+  }
+  .sche-ico img{
+    width: 40px;
+  }
+  #join-now-btn{
+    margin: 33px 0px;
+  }
+  #join-now-btn a{
+    font-size: 16px;
+    padding: 9px 18px;
+  }
+  #happy-users{
+    margin-bottom: 53px;
+  }
+  .social-media-grp{
+    margin-left: -40px;
+  }
+  .social-media-grp ul li img{
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+  }
+  #footer{
+    padding: 45px 0px;
+  }
+  #footer h3{
+    font-size: 12px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 320px){
+
+  .banner-login-btn h2{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #main-banner{
+    height: 420px;
+  }
+  .nav-toogle-btm{
+    background-color: #3B9DFF;
+    border: none;
+  }
+  .navbar-header img{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #ccc;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #555;
+  }
+  .nav-drop-bg{
+    background-color: #f9f9f9;
+  }
+  .register a:hover {
+    background-color: #666 !important;
+  }
+  #work{
+    margin: 0px;
+  }
+  #work h2,
+  .content-section-heading
+  {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  .content-section-heading{
+    padding: 15px;
+  }
+  .work-1,
+  .work-2,
+  .work-3{
+    width: 80px;
+    height: 94px;
+    background-size: 80px;
+    margin-bottom: 22px;
+    }
+  .work-content p{
+    margin-bottom: 30px;
+  }
+  .start-int-comma img,
+  .end-int-comma img
+  {
+    width: 25px;
+    height: 25px;
+  }
+  .user-cmt{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .schedule-cnt-text{
+    padding: 0px 4%;
+    font-size: 15px;
+  }
+  .schedule-ban-img{
+    height: 100%;
+    width:100%;
+    background-size: 293px;
+  }
+  .schedule-content{
+    padding: 50px 0px 0px;
+  }
+  .sche-ico{
+    padding-bottom: 30px;
+  }
+  .sche-ico img{
+    width: 40px;
+  }
+  #join-now-btn{
+    margin: 33px 0px;
+  }
+  #join-now-btn a{
+    font-size: 16px;
+    padding: 9px 18px;
+  }
+  #happy-users{
+    margin-bottom: 53px;
+  }
+  .social-media-grp{
+    margin-left: -40px;
+  }
+  .social-media-grp ul li img{
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+  }
+  #footer{
+    padding: 45px 0px;
+  }
+  #footer h3{
+    font-size: 12px;
+    margin: 0px;
+  }
+}
