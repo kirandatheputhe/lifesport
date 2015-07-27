@@ -1,10 +1,8 @@
 @import "compass";
 @import "variables";
 @import "mixins";
-
 @import "bootstrap-compass";
 @import "bootstrap";
-
 @import "base";
 
 .body{
@@ -37,6 +35,12 @@
 .navbar-header img{
   margin-top: 20px;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #555;
+  }
+.register a:hover {
+  background-color: #666 !important;
+  }
 .register a {
   padding: 0px 20px;
   color: #fff !important;
