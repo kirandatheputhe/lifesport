@@ -552,6 +552,53 @@ h3.panel-title{
 .pad-fixer-2{
   padding-left: 1px;
 }
+#vide-bg{
+  position: relative;
+}
+section{
+  position: relative;
+}
+#video-bg img{
+  border: none;
+}
+.user-images img{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border: none;
+  right: 0px;
+  bottom: 0px;
+}
+.video-chat-icons{
+  position: absolute;
+  right: 150px;
+  bottom: 0px;
+  background: rgba(0,0,0,0.5);
+  left: 0;
+  padding-left: 110px;
+  padding-top: 10px;
+}
+.video-chat-icons ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 10px;
+  
+}
+.video-chat-icons ul li img{
+  border: none;
+  background: none;
+}
+.reminder{
+  font-family: arial;
+}
+#time-indicater{
+  background-color: #1E90FF;
+  padding: 16px;
+  h2, p{
+    color: #fff;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px){
   .banner-login-btn{
     padding: 5% 0;
@@ -686,6 +733,23 @@ h3.panel-title{
       }
     }
   }
+  .user-images img{
+    width: 30%;
+    height: 40%;
+    z-index: 999;
+  }
+  .video-chat-icons{
+    right: 0px;
+    padding: 10px;
+  }
+
+  .video-chat-icons ul li img{
+    margin-top: 10px;
+    height: 30px;
+  }
+  #time-indicater h2{
+    font-size: 30px;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -797,6 +861,23 @@ h3.panel-title{
     font-size: 12px;
     margin: 0px;
   }
+  .user-images img{
+    width: 30%;
+    height: 40%;
+    z-index: 999;
+  }
+  .video-chat-icons{
+    right: 0px;
+    padding: 10px;
+  }
+
+  .video-chat-icons ul li img{
+    margin-top: 10px;
+    height: 30px;
+  }
+  #time-indicater h2{
+    font-size: 30px;
+    }
  }
 
 @media (max-width: 767px){
@@ -925,6 +1006,26 @@ h3.panel-title{
   }
   .issue-meta-tag{
     padding: 0px;
+  }
+  .user-images img{
+    width: 30%;
+    height: 40%;
+    z-index: 999;
+  }
+  .video-chat-icons{
+    right: 0px;
+    padding: 10px;
+  }
+
+  .video-chat-icons ul li img{
+    margin-top: 10px;
+    height: 30px;
+  }
+  #time-indicater h2{
+    font-size: 30px;
+    }
+  .profile{
+    min-height: 0px;
   }
   // .profile-img{
   //   text-align: center;
@@ -1134,6 +1235,22 @@ h3.panel-title{
   .issue-meta-tag{
     padding: 0px;
   }
+  .user-images img{
+    width: 30%;
+    height: 40%;
+    z-index: 999;
+  }
+  .video-chat-icons{
+    right: 0px;
+    padding: 0px;
+  }
+  .video-chat-icons ul li img{
+    margin-top: 10px;
+    height: 20px;
+  }
+  #time-indicater h2{
+    font-size: 20px;
+    }
 }
 
 @media (max-width: 320px){
@@ -1344,4 +1461,20 @@ h3.panel-title{
   .issue-meta-tag{
     padding: 0px;
   }
+  .user-images img{
+    width: 30%;
+    height: 40%;
+    z-index: 999;
+  }
+  .video-chat-icons{
+    right: 0px;
+    padding: 0px;
+  }
+  .video-chat-icons ul li img{
+    margin-top: 10px;
+    height: 16px;
+  }
+  #time-indicater h2{
+    font-size: 20px;
+    }
 }
