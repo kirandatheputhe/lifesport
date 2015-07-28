@@ -598,6 +598,33 @@ section{
     color: #fff;
   }
 }
+.sigin-up-btns{
+  height: 100px;
+}
+.athlete-btn,
+.fan-btn{
+  width: 50%;
+  padding: 35px 0px;
+}
+.athlete-btn{
+  border-right: 1px solid #fff;
+  background-color: #1E90FF;
+  border-radius: 10px 0px 0px 10px;
+}
+.fan-btn{
+  background-color: #ccc;
+  border-radius: 0px 10px 10px 0px;
+}
+.fan-btn:hover{
+  background-color: #1E90FF;
+  color: #fff;
+}
+.athlete-btn a,
+.fan-btn a{
+  padding-top: 50px;
+  font-size: 20px;
+  color: #fff;
+}
 
 @media (min-width: 992px) and (max-width: 1199px){
   .banner-login-btn{
