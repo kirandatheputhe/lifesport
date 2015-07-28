@@ -47,6 +47,7 @@ a.blue{
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
     color: #555;
+    outline: 0px;
   }
 .register a:hover {
   background-color: #666 !important;
@@ -54,7 +55,8 @@ a.blue{
 .register a {
   padding: 0px 20px;
   color: #fff !important;
-  background-color: #3B9DFF;
+  background-color: #3B9DFF !important;
+  outline: 0 !important;
 }
 
 /* header, nav css end */
@@ -1054,6 +1056,12 @@ section{
   .profile{
     min-height: 0px;
   }
+  .sigin-up-btns{
+    height: 90px;
+  }
+  .athlete-btn, .fan-btn{
+    padding: 28px 0px;
+  }
   // .profile-img{
   //   text-align: center;
   // }
@@ -1278,6 +1286,12 @@ section{
   #time-indicater h2{
     font-size: 20px;
     }
+  .sigin-up-btns{
+    height: 70px;
+  }
+  .athlete-btn, .fan-btn{
+    padding: 20px 0px;
+  }
 }
 
 @media (max-width: 320px){
@@ -1504,4 +1518,10 @@ section{
   #time-indicater h2{
     font-size: 20px;
     }
+  .sigin-up-btns{
+    height: 70px;
+  }
+  .athlete-btn, .fan-btn{
+    padding: 20px 0px;
+  }
 }
