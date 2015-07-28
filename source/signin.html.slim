@@ -15,3 +15,41 @@
         a.blue.pull-left href="/sessions/forgot_password" 
           |Forgot password?
         button.btn.btn-md.btn-default.pull-right.blue type="submit"  Sign in
+
+
+.account-wrapper
+  .panel-heading
+    h3.panel-title.text-center
+      | Sign up
+    .seperater
+    p 
+      |You are signing up as an 
+      b Athlete
+  .socail
+    =image_tag ('twitter-login.png') 
+    =image_tag ('facebook-login.png') 
+  .panel-body.signup
+    form role="form" 
+      .form-group.clearfix
+        label for="username"  Name
+        
+        .clearfix 
+        input#fname.form-control placeholder=("Enter first name") type="text" /
+        input#lname.form-control placeholder=("Enter last name") type="text" /
+      .form-group
+        label for="Email1"  Email
+        input#exampleInputEmail1.form-control placeholder=("Enter email") type="email" /
+      .form-group.clearfix
+        label for="Password" Password 
+        .clearfix
+        input#password.form-control placeholder="Password" type="password" /
+        input#confirm-password.form-control placeholder=("Confirm Password") type="text" /
+      .form-group.clearfix
+        .checkbox
+          label
+            input#login-remember name="remember" type="checkbox" value="1" 
+          span
+            | Accept
+            a.blue href="/sessions/forgot_password" 
+              |Terms and Conditions
+        button.btn.btn-md.btn-default.pull-right.blue type="submit"  Join

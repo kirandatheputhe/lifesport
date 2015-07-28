@@ -25,7 +25,7 @@ html lang="en"
         .collapse.navbar-collapse.nav-drop-bg
           ul.nav.navbar-nav
             li= link_to "Login", "#", :data=>{:toggle => 'modal', :target=> '#signin'}
-            li.register= link_to "Register", "#"
+            li.register= link_to "Register", "#", :data=>{:toggle => 'modal', :target=> '#signup'}
             / li= link_to "Contact", "#contact"
 
 
@@ -47,7 +47,7 @@ html lang="en"
             h3 &copy; 2015 All rights reserved.
 
 
-/! Modal
+/! Modal Signin
 #signin.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
   .modal-dialog role="document" 
     .modal-content
@@ -58,6 +58,13 @@ html lang="en"
           h3.panel-title.text-center
             | Login
           .seperater
+        .panel-body
+          .facebook
+            span
+              |Login with facebook
+
+          .text-center
+            span or
         .panel-body.signin
           form role="form" 
             .form-group
@@ -72,6 +79,53 @@ html lang="en"
                 |Forgot password?
               button.btn.btn-md.btn-default.pull-right.blue type="submit"  Sign in
 
+/! Modal Signup
+#signup.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
+  .modal-dialog role="document" 
+    .modal-content
+      button.close aria-label="Close" data-dismiss="modal" type="button" 
+        span aria-hidden="true"  &times;
+      .account-wrapper
+        .panel-heading
+          h3.panel-title.text-center
+            | Sign up
+          .seperater
+
+          p 
+            |You are signing up as an 
+            b Athlete
+        .panel-body
+          .facebook
+            span
+              |Singup with facebook
+
+          .text-center
+            span or
+        .panel-body.signup
+          form role="form" 
+            .form-group.clearfix
+              label for="username"  Name
+              
+              .clearfix 
+              input#fname.form-control placeholder=("Enter first name") type="text" /
+              input#lname.form-control placeholder=("Enter last name") type="text" /
+            .form-group
+              label for="Email1"  Email
+              input#exampleInputEmail1.form-control placeholder=("Enter email") type="email" /
+            .form-group.clearfix
+              label for="Password" Password 
+              .clearfix
+              input#password.form-control placeholder="Password" type="password" /
+              input#confirm-password.form-control placeholder=("Confirm Password") type="text" /
+            .form-group.clearfix
+              .checkbox
+                label
+                  input#login-remember name="remember" type="checkbox" value="1" 
+                span
+                  | Accept
+                  a.blue href="/sessions/forgot_password" 
+                    |Terms and Conditions
+              button.btn.btn-md.btn-default.pull-right.blue type="submit"  Join
 
 
     /! JavaScript

@@ -412,6 +412,11 @@ body,
 .account-wrapper{
   width: 470px;
   margin: 0 auto;
+  .panel-title ~ p{
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+  }
 }
 
 .form-control{
@@ -461,6 +466,54 @@ h3.panel-title{
   width: 100%;
   margin-top: 18px;
   background-size: 100%;
+}
+
+.signup{
+  #fname, #password{
+    width: 48.8%;
+    float: left;
+    margin-right: 10px;
+  }
+  #lname, #confirm-password{
+    width: 48.8%;
+    float: left;
+  }
+  .checkbox{
+    display: inline-block;
+    span{
+      font-size: 16px;
+      color: #999;
+    }
+    span > a{
+      margin-left: 10px;
+    }
+    label{
+      position: relative;
+      top: 5px;
+    }
+  }
+
+}
+
+.facebook {
+  padding: 15px;
+  width: 100%;
+  background: #3A5796;
+  color: #fff;
+}
+.facebook span{
+  background: url(../img/facebook55.png) no-repeat;
+  height: 20px;
+  width:20px;
+  background-size: 20px; 
+  font-size: 19px;
+  padding-left: 30px;
+
+}
+
+.facebook + div{
+  margin-top: 20px;
+  color: #555;
 }
 @media (min-width: 992px) and (max-width: 1199px){
   .banner-login-btn{
@@ -822,6 +875,18 @@ h3.panel-title{
 @media (max-width: 480px){
   .account-wrapper{
     width: 300px;
+    .facebook span{
+      font-size: 16px;
+    }
+    .signup #fname, 
+    .signup #password,
+    .signup #lname,
+    .signup #confirm-password {
+      width: 100%;
+      float: none;
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
     .form-group label{
       font-size: 14px;
     }
@@ -985,6 +1050,19 @@ h3.panel-title{
 @media (max-width: 320px){
   .account-wrapper{
     width: 300px;
+    .facebook span{
+      font-size: 16px;
+    }
+
+    .signup #fname, 
+    .signup #password,
+    .signup #lname,
+    .signup #confirm-password {
+      width: 100%;
+      float: none;
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
     .form-group label{
       font-size: 14px;
     }
