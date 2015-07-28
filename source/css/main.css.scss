@@ -23,6 +23,7 @@
 }
 .navbar{
   margin-bottom: 0px;
+  border-bottom: 0;
 }
 .navbar-inverse .navbar-nav > li > a{
   margin-top: 10px;
@@ -299,10 +300,28 @@ body,
 .authentic-profile-info{
   padding: 20px 0;
 }
-.authentic-profile-info img{
+
+.authentic-profile-info {
+  .circle{
+    background: #AFADAD;
+    height: 5px;
+    width: 5px;
+    padding: 6px;
+    border-radius: 140px;
+    position: absolute;
+    z-index: 5;
+    left: 50px;
+    top: -2px;
+  }
+
+  .profile-data p:last-child{
+    position: relative;
+  }
+  img{
   width:100%;
   border: 5px solid #00A7E2;
-  background: #f1f1f1
+  background: #f1f1f1;
+  }
 }
 
 .authentic-profile-info p{
@@ -349,13 +368,13 @@ body,
   }
 }
 .discription{
-  min-height: 280px;
   p{
     padding: 20px 15px;
     line-height: 25px;
     font-size: 18px;
     color: #999;
   }
+  
 }
 
 .btn{
@@ -737,6 +756,46 @@ body,
   }
 }
 @media (max-width: 480px){
+  .authentic-profile-info{
+    h3{
+      font-size: 18px;
+      margin-top: 0px;
+    }
+    h3~p{
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .circle{
+      left: 45px;
+      padding: 5px;
+    }
+    .schedule{
+      padding: 15px;
+    }
+    .schedule > li{
+      font-size: 16px;
+      letter-spacing: -1px;
+    }
+    .profile-meta-tab {
+      padding: 0;
+      span{
+        padding: 3px 5px;
+      }
+
+    }
+    .schedule .price{
+      width: 20%;
+    }
+    .schedule .price  strong{
+      padding-left: 15px;
+    }
+    .schedule-btn{
+      margin-left: 24px;
+      font-size: 14px;
+    }
+  }
+
+
   .banner-login-btn h2{
     font-size: 20px;
     line-height: 28px;
@@ -853,6 +912,10 @@ body,
     h3~p{
       font-size: 14px;
       line-height: 16px;
+    }
+    .circle{
+      left: 45px;
+      padding: 5px;
     }
     .schedule{
       padding: 15px;
