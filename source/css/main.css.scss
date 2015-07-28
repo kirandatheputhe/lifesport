@@ -5,9 +5,20 @@
 @import "bootstrap";
 @import "base";
 
+.btn.blue{
+  background: #00aff0
+}
+.btn{
+  border: none;
+}
+
+a.blue{
+  color: #00aff0
+}
 .body{
   font-family: raleway-regular;
 }
+
 .content-section-heading{
   font-size: 35px;
   font-family: raleway-medium;
@@ -398,6 +409,59 @@ body,
   }
 }
 
+.account-wrapper{
+  width: 470px;
+  margin: 0 auto;
+}
+
+.form-control{
+  box-shadow: none;
+  border-radius: 0;
+}
+h3.panel-title{
+  font-size: 30px;
+  color: #555;
+}
+
+.form-group {
+  label{
+    font-size: 18px;
+    color: #777;
+  }
+}
+
+.form-control{
+  border-color: #f1f1f1;
+  height: 38px;
+}
+
+.signin a{
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.btn.blue{
+  border-radius: 2px;
+  padding: 12px 40px;
+}
+
+.modal-content{
+  border-radius: 0;
+}
+
+.close span{
+  position: relative;
+  font-size: 30px;
+  right: 10px;
+}
+
+.seperater{
+  background: url(../img/title-seperater.png) no-repeat;
+  height: 2px;
+  width: 100%;
+  margin-top: 18px;
+  background-size: 100%;
+}
 @media (min-width: 992px) and (max-width: 1199px){
   .banner-login-btn{
     padding: 5% 0;
@@ -756,6 +820,22 @@ body,
   }
 }
 @media (max-width: 480px){
+  .account-wrapper{
+    width: 300px;
+    .form-group label{
+      font-size: 14px;
+    }
+    a.blue{
+      font-size: 14px;
+    }
+    .btn.blue {
+      padding: 8px 25px;
+      font-size: 14px;
+    }
+    h3.panel-title{
+      font-size: 24px;
+    }
+  }
   .authentic-profile-info{
     h3{
       font-size: 18px;
@@ -903,7 +983,22 @@ body,
 }
 
 @media (max-width: 320px){
-
+  .account-wrapper{
+    width: 300px;
+    .form-group label{
+      font-size: 14px;
+    }
+    a.blue{
+      font-size: 14px;
+    }
+    .btn.blue {
+      padding: 8px 25px;
+      font-size: 14px;
+    }
+    h3.panel-title{
+      font-size: 24px;
+    }
+  }
   .authentic-profile-info{
     h3{
       font-size: 18px;

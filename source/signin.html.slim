@@ -1,0 +1,17 @@
+.account-wrapper
+  .panel-heading
+    h3.panel-title.text-center
+      | Login
+  .panel-body.signin
+    form role="form" 
+      .form-group
+        label for="exampleInputEmail1"  Email
+        input#exampleInputEmail1.form-control placeholder=("Enter email") type="email" /
+      .form-group
+        label for="exampleInputPassword1" 
+          | Password          
+        input#exampleInputPassword1.form-control placeholder="Password" type="password" /
+      .form-group.clearfix
+        a.blue.pull-left href="/sessions/forgot_password" 
+          |Forgot password?
+        button.btn.btn-md.btn-default.pull-right.blue type="submit"  Sign in
