@@ -1,10 +1,17 @@
-.container-fluid.background-img.profile
-  .container.clearfix
-    .col-md-6.col-sm-12.authentic-profile-info
+.background-img.profile
+  .authete
+    .col-md-5.col-sm-12.authentic-profile-info
       .container-fluid     
-        .col-sm-4.col-md-4
+        .col-sm-4.col-md-4.col-xs-5
           =image_tag ('profile-img.png'), class: 'img-circle'
-        .col-sm-8.col-md-8
+          .rating.text-center
+            i.glyphicon.glyphicon-star
+            i.glyphicon.glyphicon-star
+            i.glyphicon.glyphicon-star
+            span
+              i.glyphicon.glyphicon-star
+              i.glyphicon.glyphicon-star
+        .col-sm-8.col-md-8.col-xs-7
           h3 Bruce Wayne
           p 
             |Dirt Bike racer

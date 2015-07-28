@@ -284,16 +284,16 @@ body,
 
 .background-img{
   background: url(../img/bg.png) no-repeat;
-  height: 100%;
-  width: 100%;
  background-size: cover}
+
 
 .profile{
   min-height: 600px;
 }
 
 .authentic-profile-info{
-  background: #f9f9f9
+  background: #f9f9f9;
+  margin-left: 110px;
 }
 
 .authentic-profile-info{
@@ -369,6 +369,16 @@ body,
     color:#fff;
   }
 }
+
+.rating{
+  color: #1E90FF;
+  margin-top: 10px;
+  font-size: 18px;
+  span{
+    color: #ccc
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px){
   .banner-login-btn{
     padding: 5% 0;
@@ -484,8 +494,32 @@ body,
     font-size: 12px;
     margin: 0px;
   }
+
+  .authentic-profile-info{
+    background: #f9f9f9;
+    margin-left: 75px;
+  }
+
+  .schedule{
+    li {
+      width: 30%;
+      }
+    .schedule-btn{
+      margin-left: 10px;
+    }
+    .price{
+      strong{
+        padding-left: 50px;
+      }
+    }
+  }
+
 }
 @media (min-width: 768px) and (max-width: 979px) {
+  .authentic-profile-info{
+    margin-left: 0px;
+  }
+
   .banner-login-btn{
     padding: 5% 0;
   }
@@ -593,6 +627,10 @@ body,
  }
 
 @media (max-width: 767px){
+  .authentic-profile-info{
+    margin-left: 0px;
+  }
+
   .banner-login-btn h2{
     font-size: 25px;
     line-height: 28px;
@@ -807,6 +845,54 @@ body,
 
 @media (max-width: 320px){
 
+  .authentic-profile-info{
+    h3{
+      font-size: 18px;
+      margin-top: 0px;
+    }
+    h3~p{
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .schedule{
+      padding: 15px;
+    }
+    .schedule > li{
+      font-size: 16px;
+      letter-spacing: -1px;
+    }
+    .profile-meta-tab {
+      padding: 0;
+      span{
+        padding: 3px 5px;
+      }
+
+    }
+    .schedule .price{
+      width: 20%;
+    }
+    .schedule .price  strong{
+      padding-left: 15px;
+    }
+    .schedule-btn{
+      margin-left: 24px;
+      font-size: 14px;
+    }
+
+    .btn{
+      padding: 7px 20px;
+    }
+    .discription{
+      min-height: 318px;
+      p{
+        padding: 7px 15px;
+        line-height: 24px;
+        font-size: 15px;
+      }
+    }
+  }
+
+
   .banner-login-btn h2{
     font-size: 20px;
     line-height: 28px;
@@ -911,4 +997,5 @@ body,
     font-size: 12px;
     margin: 0px;
   }
+    
 }
