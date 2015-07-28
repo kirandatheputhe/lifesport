@@ -41,9 +41,16 @@
             li.price
               strong $40
             li
-              .schedule-btn.btn
+              .schedule-btn.btn data-toggle='modal' data-target='#schedule'
                 |Schedule
       .container-fluid
         .discription
           p
             |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus
+
+#schedule.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
+  .modal-dialog role="document" 
+    .modal-content.modal-calender
+      button.close aria-label="Close" data-dismiss="modal" type="button" 
+        span aria-hidden="true"  &times;            
+      =image_tag "calender.png"

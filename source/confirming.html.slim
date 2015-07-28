@@ -1,0 +1,61 @@
+.background-img.profile.book-confrim
+  .authete
+    .col-md-5.col-sm-12.authentic-profile-info
+      .container-fluid.confirming-booking-step     
+        .col-sm-4.col-md-4.col-xs-5
+          .profile-img
+            =image_tag ('profile-img.png'), class: 'img-circle'
+            .rating.text-center
+              i.glyphicon.glyphicon-star
+              i.glyphicon.glyphicon-star
+              i.glyphicon.glyphicon-star
+              span
+                i.glyphicon.glyphicon-star
+                i.glyphicon.glyphicon-star
+        .col-sm-8.col-md-8.col-xs-7
+          .profile-data
+            h3 Bruce Wayne
+            p 
+              |Dirt Bike racer
+              br/
+              |22 years old 
+            p
+              i.glyphicon.glyphicon-map-marker
+              | Madrid, Span
+            p
+              span.circle
+              |Offline
+
+      .container-fluid
+        .row
+          ul.confirming-info
+            li.confirming-title
+              |Confirming Booking
+            li.time
+              strong 20 minutes
+            li.price.price-circle
+              strong $40
+      .paymanet
+        .card
+          .card-num
+            h4 Card number
+            strong 4566 5600 1212 3434
+          .card-img
+        .cvc-expi.clearfix
+          .cvc.pull-left
+            h4 cvc
+            strong 452
+          .expi.pull-left
+            h4 expiration date
+            strong 03/2015
+        .container-fluid.text-center
+          .checkbox
+            label
+              input#login-remember name="remember" type="checkbox" value="1" 
+            span
+              | Accept
+              a.blue href="/sessions/forgot_password" 
+                |Terms and Conditions
+
+          button.btn Confirming Booking
+
