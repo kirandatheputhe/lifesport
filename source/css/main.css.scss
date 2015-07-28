@@ -341,9 +341,12 @@ body,
   line-height: 20px;
 }
 
-.profile-meta-tab{
+.profile-meta-tab,
+.issue-meta-tag
+{
   margin: 10px 0;
-  padding: 20px; 
+  padding: 20px;
+  border-top: 1px solid #F1F5F8; 
 
   span{
     background: #6a748d;
@@ -354,8 +357,6 @@ body,
     padding: 5px 8px;
   }
 }
-
-
 .schedule{
   padding: 20px 30px;
   background: #f1f5f8;
@@ -461,6 +462,43 @@ h3.panel-title{
   width: 100%;
   margin-top: 18px;
   background-size: 100%;
+}
+.athlete-profile-time-pikr h3{
+  border-top: 1px solid #F1F5F8;
+  
+}
+.athlete-profile-time-pikr h3,
+.issue-that-ll-nt-discuss h3
+{
+  margin: 20px 10px;
+  color: #495E94;
+  padding-top: 20px;
+}
+.issue-that-ll-nt-discuss h3{
+  margin: 12px 10px;
+}
+.day-pikr a{
+  color: #FF981F;
+}
+.time-pikr a{
+  color: #495EA9;
+}
+.day-pikr,
+.time-pikr{
+  background-color: #F1F5F8;
+  padding: 20px;
+}
+.day-pikr a,
+.time-pikr a{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+}
+.pad-fixer-1{
+  padding-right: 1px;
+}
+.pad-fixer-2{
+  padding-left: 1px;
 }
 @media (min-width: 992px) and (max-width: 1199px){
   .banner-login-btn{
@@ -818,6 +856,32 @@ h3.panel-title{
     font-size: 12px;
     margin: 0px;
   }
+  .day-pikr{
+    margin-bottom: 5px;
+  }
+  .athlete-profile-time-pikr {
+    .row{
+      margin: 0px;
+    }
+  }
+  .pad-fixer-1,
+  .pad-fixer-2{
+    padding: 0px;
+  }
+  .issue-meta-tag{
+    padding-left: 5px;
+  }
+  .issue-meta-tag{
+    padding: 0px;
+  }
+  // .profile-img{
+  //   text-align: center;
+  // }
+  // .authentic-profile-info img{
+  //   width: 50%;
+  //   text-align: center;
+  // }
+  
 }
 @media (max-width: 480px){
   .account-wrapper{
@@ -979,6 +1043,32 @@ h3.panel-title{
   #footer h3{
     font-size: 12px;
     margin: 0px;
+  }
+  .athlete-profile-time-pikr h3, .issue-that-ll-nt-discuss h3{
+    margin: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .day-pikr{
+    margin-bottom: 5px;
+  }
+  .athlete-profile-time-pikr {
+    .row{
+      margin: 0px;
+    }
+  }
+  .pad-fixer-1,
+  .pad-fixer-2{
+    padding: 0px;
+  }
+  .issue-meta-tag{
+    padding-left: 5px;
+  }
+  .profile{
+    min-height: 0px;
+  }
+  .issue-meta-tag{
+    padding: 0px;
   }
 }
 
@@ -1155,5 +1245,26 @@ h3.panel-title{
     font-size: 12px;
     margin: 0px;
   }
-    
+  .athlete-profile-time-pikr h3, .issue-that-ll-nt-discuss h3{
+    margin: 10px 5px;
+    font-size: 15px;
+  }
+  .day-pikr{
+    margin-bottom: 5px;
+  }
+  .athlete-profile-time-pikr {
+    .row{
+      margin: 0px;
+    }
+  }
+  .pad-fixer-1,
+  .pad-fixer-2{
+    padding: 0px;
+  }
+  .profile{
+    min-height: 0px;
+  }
+  .issue-meta-tag{
+    padding: 0px;
+  }
 }
