@@ -681,6 +681,10 @@ ul.confirming{
 .book-confrim{
   min-height: 700px;
 }
+
+.modal-calender{
+  width: 470px
+}
 @media (min-width: 992px) and (max-width: 1199px){
    .confirming-info .price-circle{
       padding-left: 0; 
@@ -1208,6 +1212,9 @@ ul.confirming{
   
 }
 @media (max-width: 480px){
+  .modal-calender{
+    width: 310px
+  }
   .confirming-info .price-circle{
       padding-left: 0; 
       width: 20%;
@@ -1468,7 +1475,9 @@ ul.confirming{
 }
 
 @media (max-width: 320px){
-
+  .modal-calender{
+    width: 310px
+  }
   .confirming-info .price-circle{
       padding-left: 0; 
       width: 20%;
