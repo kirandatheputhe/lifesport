@@ -357,7 +357,9 @@ body,
     padding: 5px 8px;
   }
 }
-.schedule{
+
+
+.schedule,.confirming-info {
   padding: 20px 30px;
   background: #f1f5f8;
   ul{
@@ -378,6 +380,29 @@ body,
       padding-left: 50px;
     }
   }
+  .confirming-title{
+    width: 40%;
+  }
+  .confirming-title + .time{
+    width: 25%;
+  }
+  .price-circle{
+    padding-left: 80px;
+  }
+  .price-circle strong{
+    border-radius: 100%;
+    padding: 22px 14px;
+    border: 2px solid #01C73A;
+    height: 60px;
+    width: 60px;
+    font-size: 32px;
+  }
+}
+.confirming-info{
+  padding: 30px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  background: #fff;
 }
 .discription{
   p{
@@ -599,7 +624,107 @@ section{
   }
 }
 
+ul.confirming{
+  margin-bottom: 0;
+  background: #fff;
+}
+
+.paymanet{
+  h4{
+    font-size: 18px;
+    color: #6a748d;
+    text-transform: uppercase; 
+    margin-top: 0;
+  }
+  strong{
+    font-family: arial;
+    font-size: 30px;
+    color: #6a748d;
+  }
+
+  .card-num{
+    border-bottom: 1px solid #fff;
+  }
+  .card-num, .cvc-expi {
+    background: #f1f5f8;
+    padding: 20px;
+  }
+  .cvc{
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+  }
+  .cvc-expi{
+    div{
+      width: 48%;
+    }
+    
+  }
+  .checkbox{
+    display: inline-block;
+    padding: 14px 0;
+    span{
+      font-size: 16px;
+      color: #999;
+    }
+    span > a{
+      margin-left: 10px;
+    }
+    label{
+      position: relative;
+      top: 5px;
+    }
+  }
+  button{
+    padding: 20px 100px;
+  }
+}
+.book-confrim{
+  min-height: 700px;
+}
 @media (min-width: 992px) and (max-width: 1199px){
+   .confirming-info .price-circle{
+      padding-left: 0; 
+      width: 20%;
+    }
+  .confirming-info .price-circle strong{
+    height: 40px;
+    width: 40px;
+    padding: 17px 10px;
+    font-size: 24px;
+  }
+  .confirming-info {
+    padding: 20px;
+    .confirming-title{
+      font-size: 14px;
+      width: 30%;
+    }
+    .confirming-title + .time{
+      width: 40%;
+      font-size: 16px;
+    }
+  }
+  .paymanet{
+     strong{
+      font-size:24px;
+    }
+    h4{
+      font-size: 16px;
+    }
+    .card-num{
+      border-bottom: none;
+    }
+    .cvc-expi div{
+      width: 100%;
+      float: none;
+    }
+    .cvc{
+      margin-bottom: 20px;
+      border-right: none;
+    }
+    button {
+      padding: 15px 60px;
+    }
+  }
   .banner-login-btn{
     padding: 5% 0;
   }
@@ -753,6 +878,9 @@ section{
 
 }
 @media (min-width: 768px) and (max-width: 979px) {
+
+
+
   .authentic-profile-info{
     margin-left: 0px;
   }
@@ -881,6 +1009,49 @@ section{
  }
 
 @media (max-width: 767px){
+   .confirming-info .price-circle{
+      padding-left: 0; 
+      width: 20%;
+    }
+  .confirming-info .price-circle strong{
+    height: 40px;
+    width: 40px;
+    padding: 17px 10px;
+    font-size: 24px;
+  }
+  .confirming-info {
+    padding: 20px;
+    .confirming-title{
+      font-size: 14px;
+      width: 30%;
+    }
+    .confirming-title + .time{
+      width: 40%;
+      font-size: 16px;
+    }
+  }
+  .paymanet{
+     strong{
+      font-size:24px;
+    }
+    h4{
+      font-size: 16px;
+    }
+    .card-num{
+      border-bottom: none;
+    }
+    .cvc-expi div{
+      width: 100%;
+      float: none;
+    }
+    .cvc{
+      margin-bottom: 20px;
+      border-right: none;
+    }
+    button {
+      padding: 15px 60px;
+    }
+  }
   .authentic-profile-info{
     margin-left: 0px;
   }
@@ -1037,6 +1208,49 @@ section{
   
 }
 @media (max-width: 480px){
+  .confirming-info .price-circle{
+      padding-left: 0; 
+      width: 20%;
+    }
+  .confirming-info .price-circle strong{
+    height: 40px;
+    width: 40px;
+    padding: 17px 10px;
+    font-size: 24px;
+  }
+  .confirming-info {
+    padding: 20px;
+    .confirming-title{
+      font-size: 14px;
+      width: 30%;
+    }
+    .confirming-title + .time{
+      width: 40%;
+      font-size: 16px;
+    }
+  }
+  .paymanet{
+     strong{
+      font-size:24px;
+    }
+    h4{
+      font-size: 16px;
+    }
+    .card-num{
+      border-bottom: none;
+    }
+    .cvc-expi div{
+      width: 100%;
+      float: none;
+    }
+    .cvc{
+      margin-bottom: 20px;
+      border-right: none;
+    }
+    button {
+      padding: 15px 60px;
+    }
+  }
   .account-wrapper{
     width: 300px;
     .facebook span{
@@ -1254,6 +1468,47 @@ section{
 }
 
 @media (max-width: 320px){
+
+  .confirming-info .price-circle{
+      padding-left: 0; 
+      width: 20%;
+    }
+  .confirming-info .price-circle strong{
+    height: 40px;
+    width: 40px;
+    padding: 17px 10px;
+    font-size: 24px;
+  }
+  .confirming-info {
+    padding: 20px;
+    .confirming-title{
+      font-size: 14px;
+      width: 30%;
+    }
+    .confirming-title + .time{
+      width: 40%;
+      font-size: 16px;
+    }
+  }
+  .paymanet{
+     strong{
+      font-size:24px;
+    }
+    h4{
+      font-size: 16px;
+    }
+    .card-num{
+      border-bottom: none;
+    }
+    .cvc-expi div{
+      width: 100%;
+      float: none;
+    }
+    .cvc{
+      margin-bottom: 20px;
+      border-right: none;
+    }
+  }
   .account-wrapper{
     width: 300px;
     .facebook span{
